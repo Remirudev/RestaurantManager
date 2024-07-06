@@ -1,10 +1,7 @@
-package com.RestaurantManagement.RestaurantManagement.Entity;
+package com.RestaurantManagement.RestaurantManagement.Model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.util.ArrayList;
-import java.util.List;
 
 
 @Entity

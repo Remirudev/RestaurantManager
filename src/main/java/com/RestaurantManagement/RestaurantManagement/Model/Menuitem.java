@@ -1,10 +1,7 @@
-package com.RestaurantManagement.RestaurantManagement.Entity;
+package com.RestaurantManagement.RestaurantManagement.Model;
 
 import jakarta.persistence.*;
-import jakarta.persistence.Table;
 import lombok.Data;
-
-import java.util.List;
 
 
 @Entity
@@ -13,6 +10,7 @@ public class Menuitem {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "menuitem_id")
     private Long menuitemId;
 
     private String name;
@@ -20,5 +18,7 @@ public class Menuitem {
     private Double price;
 
     private String description;
+
+    private String menuitemimg;
 
 }

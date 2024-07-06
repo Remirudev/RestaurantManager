@@ -1,9 +1,7 @@
-package com.RestaurantManagement.RestaurantManagement.Entity;
+package com.RestaurantManagement.RestaurantManagement.Model;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
-import java.time.LocalTime;
 
 @Entity
 @Data
